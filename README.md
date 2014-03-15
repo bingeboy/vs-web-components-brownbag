@@ -8,7 +8,7 @@ Office Brown Bag
 
 ###Intro 
 
-Please note this is still in draft.
+Please note this is still in draft. And appears to be replacing the HTMLElementElement which has been shelved.
 
 * [Templates](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/templates.md), which define chunks of markup that are inert but can be activated for use later.
 * [Custom Elements](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/custom-element.md), which let authors define their own elements, with new tag names and new script interfaces.
@@ -183,7 +183,9 @@ if (supportsCustomElements()) {
 
 
 
-### Utter hotness
+### The POLYMER-PROJECT Hotest Thing Since The <blink/> Tag
+
+Polymer is a library that uses the latest web technologies to let you create custom HTML elements.
 
 
 
