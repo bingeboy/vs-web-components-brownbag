@@ -1,6 +1,6 @@
 #Polymer Examples Go Here
 
-To run these test run command from public folder root:
+To use examples run this command from public folder root:
 ```
 $ http-server ./
 ```
