@@ -1,4 +1,3 @@
-
 #Make a web component custom element
 
 ###Example
@@ -25,4 +24,14 @@ c.tick();         // inherited from tick-tock-clock
 c.chime();        // specialized by cuckoo-clock
 c.popOutBirdie(); // specific to cuckoo-clock
 
+```
+
+### Psuedo Selector for Custom Elements
+```
+<style>
+tick-tock-clock:unresolved {
+  content: '??:??';  
+}
+</style>
+<tick-tock-clock></tick-tock-clock> <!-- will show ??:?? -->
 ```
