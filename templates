@@ -1,0 +1,3 @@
+# Templates
+
+The content of the <template> element is parsed by the parser, but it is inert: scripts aren't processed, images aren't downloaded, and so on. The <template> element is not rendered.
