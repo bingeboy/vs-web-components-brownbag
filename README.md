@@ -8,11 +8,11 @@ Office Brown Bag
 
 ###Intro 
 
-####Web Components - Getting back to meaningful markup
+#####Web Components - Getting back to meaningful markup
 
 NOTE WC is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
 
-##Four key components
+#####Four key components
 
 * [Templates](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/templates.md), which define chunks of markup that are inert but can be activated for use later.
 * [Custom Elements](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/custom-element.md), which let authors define their own elements, with new tag names and new script interfaces.
