@@ -7,7 +7,7 @@ The Shadow Dom allows for encapsulation on the dom level.
 * Fallback Content, if nothing is distributed to an insertion point.
 * Multiple Shadow Subtrees
 
-The most recently applied shadow DOM subtree has the best shot of getting fresh children for its <content> insertion points.
+The most recently applied shadow DOM subtree has the best shot of getting fresh children for its \<content\> insertion points.
 Once it's had its way, the next most recent shadow DOM subtree—if even allowed to—can rummage through the remaining children.
 Cycle repeats until either the current shadow DOM subtree has no \<shadow\> element, or we've processed the oldest DOM subtree for this element.
 

@@ -21,7 +21,7 @@ Office Brown Bag
 
 
 ##### Custom Element myth
-"Sorry <randomtag>! You're non-standard and inherit from HTMLUnknownElement." - Professional Internet Troll.
+"Sorry \<randomtag\>! You're non-standard and inherit from HTMLUnknownElement." - Professional Internet Troll.
 
 ```
 // "tabs" is not a valid custom element name
@@ -184,7 +184,7 @@ if (supportsCustomElements()) {
 
 
 
-### The POLYMER-PROJECT Hottest Thing Since The <blink/> Tag
+### The POLYMER-PROJECT Hottest Thing Since The \<blink/\> Tag
 
 Polymer is a library created by Google that uses polyfills in order to bring these custom web component to the latest versions of virtually all browsers.
 
@@ -193,7 +193,7 @@ Polymer is a library created by Google that uses polyfills in order to bring the
 
 We will be able to build much of our module functionality right into the dom.
 
-Imagine <product> tags, and <bra>, <bikini> tags extended from it.
+Imagine \<product\> tags, and \<bra\>, \<bikini\> tags extended from it.
 
 
 
