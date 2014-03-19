@@ -3,14 +3,11 @@ vs-web-components-brownbag
 
 Office Brown Bag
 
-
-[Web Components draft](http://w3c.github.io/webcomponents/explainer/)
-
 ###Intro 
 
 #####Web Components - Getting back to meaningful markup
 
-NOTE WC is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
+[Spec](http://w3c.github.io/webcomponents/explainer/) NOTE Web Components spec is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
 
 #####Four key components
 
