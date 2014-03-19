@@ -17,7 +17,7 @@ Office Brown Bag
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
 
-##Why would I do that? This sounds like new front end hipsters madness. I'm trolling stack overflow.
+##Why would I do that? This sounds like new front end hipster madness. I'm trolling stack overflow.
 
 
 ##### Custom Element myth
@@ -186,9 +186,14 @@ if (supportsCustomElements()) {
 
 ### The POLYMER-PROJECT Hottest Thing Since The <blink/> Tag
 
-Polymer is a library that uses the latest web technologies to let you create custom HTML elements.
+Polymer is a library created by Google that uses polyfills in order to bring these custom web component to the latest versions of virtually all browsers.
 
 
+### Applications of web components for Victoria's Secret
+
+We will be able to build much of our module functionality right into the dom.
+
+Imagine <product> tags, and <bra>, <bikini> tags extended from it.
 
 
 

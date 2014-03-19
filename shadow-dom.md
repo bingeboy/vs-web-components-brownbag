@@ -1,7 +1,9 @@
 #Shadow Dom
 
+The Shadow Dom allows for encapsulation on the dom level.
+
 * Insertion Points, add the shadow dom in where you want it to be added.
-* Reprojection, shadow DOM subtree may have shadow roots of their own.
+* Re-projection, shadow DOM subtree may have shadow roots of their own.
 * Fallback Content, if nothing is distributed to an insertion point.
 * Multiple Shadow Subtrees
 
