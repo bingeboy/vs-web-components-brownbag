@@ -8,9 +8,7 @@ Office Brown Bag
 
 ###Intro 
 
-##Web Components
-
-#Getting back to meaningful markup
+####Web Components - Getting back to meaningful markup
 
 NOTE WC is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
 
