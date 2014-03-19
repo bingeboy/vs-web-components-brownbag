@@ -7,7 +7,7 @@ Office Brown Bag
 
 #####Web Components - Getting back to meaningful markup
 
-[Spec](http://w3c.github.io/webcomponents/explainer/) NOTE Web Components spec is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
+[Web Components Spec](http://w3c.github.io/webcomponents/explainer/) ~~NOTE Web Components spec is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.~~
 
 #####Four key components
 
