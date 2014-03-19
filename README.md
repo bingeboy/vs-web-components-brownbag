@@ -20,7 +20,7 @@ NOTE WC is still in draft. It appears to be replacing the HTMLElementElement whi
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
 
-###Why would I do that? This sounds like new front end hipsters madness. I'm trolling stack overflow.
+##Why would I do that? This sounds like new front end hipsters madness. I'm trolling stack overflow.
 
 
 ##### Custom Element myth
