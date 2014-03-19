@@ -8,7 +8,13 @@ Office Brown Bag
 
 ###Intro 
 
-Please note this is still in draft. And appears to be replacing the HTMLElementElement which has been shelved.
+##Web Components
+
+#Getting back to meaningful markup
+
+NOTE WC is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
+
+##Four key components
 
 * [Templates](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/templates.md), which define chunks of markup that are inert but can be activated for use later.
 * [Custom Elements](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/custom-element.md), which let authors define their own elements, with new tag names and new script interfaces.
@@ -16,7 +22,7 @@ Please note this is still in draft. And appears to be replacing the HTMLElementE
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
 
-### Why would I do that? This sounds like new front end hipsters madness. I'm trollign stack overflow.
+## Why would I do that? This sounds like new front end hipsters madness. I'm trollign stack overflow.
 
 
 ## Custom Element myth
@@ -57,7 +63,7 @@ XFooProto.createdCallback = function() {
 var XFoo = document.registerElement('x-foo-with-markup', {prototype: XFooProto});
 ```
 
-#####Shadw Dom
+#####Shadow Dom
 ```
 var XFooProto = Object.create(HTMLElement.prototype);
 
