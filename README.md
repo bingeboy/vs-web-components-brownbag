@@ -23,7 +23,7 @@ NOTE WC is still in draft. It appears to be replacing the HTMLElementElement whi
 ###Why would I do that? This sounds like new front end hipsters madness. I'm trolling stack overflow.
 
 
-## Custom Element myth
+##### Custom Element myth
 "Sorry <randomtag>! You're non-standard and inherit from HTMLUnknownElement." - Professional Internet Troll.
 
 ```
@@ -34,7 +34,7 @@ document.createElement('tabs').__proto__ === HTMLUnknownElement.prototype
 document.createElement('x-tabs').__proto__ == HTMLElement.prototype
 ```
 
-## LifeCycle Callbacks
+##### LifeCycle Callbacks
 * createdCallback	- an instance of the element is created
 * attachedCallback -	an instance was inserted into the document
 * detachedCallback	- an instance was removed from the document
@@ -187,7 +187,7 @@ if (supportsCustomElements()) {
 
 
 
-### The POLYMER-PROJECT Hotest Thing Since The <blink/> Tag
+### The POLYMER-PROJECT Hottest Thing Since The <blink/> Tag
 
 Polymer is a library that uses the latest web technologies to let you create custom HTML elements.
 
