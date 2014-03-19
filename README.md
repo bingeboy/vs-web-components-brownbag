@@ -20,7 +20,7 @@ NOTE WC is still in draft. It appears to be replacing the HTMLElementElement whi
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
 
-## Why would I do that? This sounds like new front end hipsters madness. I'm trollign stack overflow.
+###Why would I do that? This sounds like new front end hipsters madness. I'm trolling stack overflow.
 
 
 ## Custom Element myth
@@ -35,10 +35,10 @@ document.createElement('x-tabs').__proto__ == HTMLElement.prototype
 ```
 
 ## LifeCycle Callbacks
-* createdCallback	an instance of the element is created
-* attachedCallback	an instance was inserted into the document
-* detachedCallback	an instance was removed from the document
-* attributeChangedCallback(attrName, oldVal, newVal)	an attribute was added, removed, or updated
+* createdCallback	- an instance of the element is created
+* attachedCallback -	an instance was inserted into the document
+* detachedCallback	- an instance was removed from the document
+* attributeChangedCallback(attrName, oldVal, newVal)	- an attribute was added, removed, or updated
 
 ```
 var proto = Object.create(HTMLElement.prototype);
