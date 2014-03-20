@@ -1,19 +1,17 @@
 vs-web-components-brownbag
 ==========================
 
-Office Brown Bag
-
 ###Intro 
 
 #####Web Components - Getting back to meaningful markup
 
 [Web Components Spec](http://w3c.github.io/webcomponents/explainer/) _NOTE Web Components spec is still in draft. It appears to be replacing the HTMLElementElement which has been shelved._
 
-#####Four key components
+#####Four key topics
 
 * [Templates](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/templates.md), which define chunks of markup that are inert but can be activated for use later.
-* [Custom Elements](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/custom-element.md), which let authors define their own elements, with new tag names and new script interfaces.
 * [Shadow DOM](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/shadow-dom.md), which encapsulates a DOM subtree for more reliable composition of user interface elements.
+* [Custom Elements](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/custom-element.md), which let authors define their own elements, with new tag names and new script interfaces.
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
 
