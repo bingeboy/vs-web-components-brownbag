@@ -161,7 +161,7 @@ if (supportsCustomElements()) {
 
 
 
-### The POLYMER-PROJECT Hottest Thing Since The \<blink/\> Tag
+### The POLYMER-PROJECT Hottest Thing Since The \<blink\> Tag
 
 Polymer is a library created by Google that uses polyfills in order to bring these custom web component to the latest versions of virtually all browsers.
 
