@@ -18,6 +18,10 @@ So we can create fully encapsulated, customized web components!
 
 ##Why would I do that? This sounds like new front end hipster madness. I'm trolling stack overflow.
 
+Originally with the web we had these great simple tags that had inherent abilities.
+
+We want to have tags that do what you need without customization.
+
 ####Examples
 
 #####Markup
