@@ -1,13 +1,15 @@
 #Shadow Dom
 
+The Shadow Dom allows for encapsulation on the dom level.
+
 * Insertion Points, add the shadow dom in where you want it to be added.
-* Reprojection, shadow DOM subtree may have shadow roots of their own.
+* Re-projection, shadow DOM subtree may have shadow roots of their own.
 * Fallback Content, if nothing is distributed to an insertion point.
 * Multiple Shadow Subtrees
 
-The most recently applied shadow DOM subtree has the best shot of getting fresh children for its <content> insertion points.
+The most recently applied shadow DOM subtree has the best shot of getting fresh children for its \<content\> insertion points.
 Once it's had its way, the next most recent shadow DOM subtree—if even allowed to—can rummage through the remaining children.
-Cycle repeats until either the current shadow DOM subtree has no <shadow> element, or we've processed the oldest DOM subtree for this element.
+Cycle repeats until either the current shadow DOM subtree has no \<shadow\> element, or we've processed the oldest DOM subtree for this element.
 
 
 ##CSS

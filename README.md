@@ -3,14 +3,11 @@ vs-web-components-brownbag
 
 Office Brown Bag
 
-
-[Web Components draft](http://w3c.github.io/webcomponents/explainer/)
-
 ###Intro 
 
 #####Web Components - Getting back to meaningful markup
 
-NOTE WC is still in draft. It appears to be replacing the HTMLElementElement which has been shelved.
+[Web Components Spec](http://w3c.github.io/webcomponents/explainer/) _NOTE Web Components spec is still in draft. It appears to be replacing the HTMLElementElement which has been shelved._
 
 #####Four key components
 
@@ -20,11 +17,11 @@ NOTE WC is still in draft. It appears to be replacing the HTMLElementElement whi
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
 
-## Why would I do that? This sounds like new front end hipsters madness. I'm trollign stack overflow.
+##Why would I do that? This sounds like new front end hipster madness. I'm trolling stack overflow.
 
 
-## Custom Element myth
-"Sorry <randomtag>! You're non-standard and inherit from HTMLUnknownElement." - Professional Internet Troll.
+##### Custom Element myth
+"Sorry \<randomtag\>! You're non-standard and inherit from HTMLUnknownElement." - Professional Internet Troll.
 
 ```
 // "tabs" is not a valid custom element name
@@ -34,11 +31,11 @@ document.createElement('tabs').__proto__ === HTMLUnknownElement.prototype
 document.createElement('x-tabs').__proto__ == HTMLElement.prototype
 ```
 
-## LifeCycle Callbacks
-* createdCallback	an instance of the element is created
-* attachedCallback	an instance was inserted into the document
-* detachedCallback	an instance was removed from the document
-* attributeChangedCallback(attrName, oldVal, newVal)	an attribute was added, removed, or updated
+##### LifeCycle Callbacks
+* createdCallback	- an instance of the element is created
+* attachedCallback -	an instance was inserted into the document
+* detachedCallback	- an instance was removed from the document
+* attributeChangedCallback(attrName, oldVal, newVal)	- an attribute was added, removed, or updated
 
 ```
 var proto = Object.create(HTMLElement.prototype);
@@ -187,11 +184,16 @@ if (supportsCustomElements()) {
 
 
 
-### The POLYMER-PROJECT Hotest Thing Since The <blink/> Tag
+### The POLYMER-PROJECT Hottest Thing Since The \<blink/\> Tag
 
-Polymer is a library that uses the latest web technologies to let you create custom HTML elements.
+Polymer is a library created by Google that uses polyfills in order to bring these custom web component to the latest versions of virtually all browsers.
 
 
+### Applications of web components for Victoria's Secret
+
+We will be able to build much of our module functionality right into the dom.
+
+Imagine \<product\> tags, and \<bra\>, \<bikini\> tags extended from it.
 
 
 
