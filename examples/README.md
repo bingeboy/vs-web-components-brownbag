@@ -1,4 +1,4 @@
-#How to use exmples
+#How to use examples
 
 install:
 
