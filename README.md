@@ -18,33 +18,7 @@ So we can create fully encapsulated, customized web components!
 
 ##Why would I do that? This sounds like new front end hipster madness. I'm trolling stack overflow.
 
-
-##### Custom Element myth
-"Sorry \<randomtag\>! You're non-standard and inherit from HTMLUnknownElement." - Professional Internet Troll.
-
-```
-// "tabs" is not a valid custom element name
-document.createElement('tabs').__proto__ === HTMLUnknownElement.prototype
-
-// "x-tabs" is a valid custom element name
-document.createElement('x-tabs').__proto__ == HTMLElement.prototype
-```
-
-##### LifeCycle Callbacks
-* createdCallback	- an instance of the element is created
-* attachedCallback -	an instance was inserted into the document
-* detachedCallback	- an instance was removed from the document
-* attributeChangedCallback(attrName, oldVal, newVal)	- an attribute was added, removed, or updated
-
-```
-var proto = Object.create(HTMLElement.prototype);
-
-proto.createdCallback = function() {...};
-proto.attachedCallback = function() {...};
-
-var XFoo = document.registerElement('x-foo', {prototype: proto});
-```
-####Demo
+####Examples
 
 #####Markup
 ```
