@@ -14,6 +14,7 @@ vs-web-components-brownbag
 * [Custom Elements](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/custom-element.md), which let authors define their own elements, with new tag names and new script interfaces.
 * [Imports](https://github.com/bingeboy/vs-web-components-brownbag/blob/master/imports.md), which defines how templates and custom elements are packaged and loaded as a resource.
 
+So we can create fully encapsulated, customized web components!
 
 ##Why would I do that? This sounds like new front end hipster madness. I'm trolling stack overflow.
 
